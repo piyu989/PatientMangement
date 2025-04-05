@@ -1,5 +1,23 @@
 package com.pm.patientservice.service;
 
-public interface PatientService {
+import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.pm.patientservice.dto.PatientResponseDto;
+import com.pm.patientservice.entity.Patient;
+import com.pm.patientservice.repository.PatientRepository;
+
+
+@Service
+public class PatientService {
+	@Autowired
+	private PatientRepository patientRepository;
+	
+	public List<PatientResponseDto> getAll(){
+		List<Patient> patients = patientRepository.findAll(); 
+		
+	}
+	
 }
