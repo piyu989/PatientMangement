@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+    <typeInfo handle="=Patient-Service/C:\/Users\/sab98\/.m2\/repository\/org\/hibernate\/validator\/hibernate-validator\/8.0.1.Final\/hibernate-validator-8.0.1.Final.jar=/maven.pomderived=/true=/=/maven.groupId=/org.hibernate.validator=/=/maven.artifactId=/hibernate-validator=/=/maven.version=/8.0.1.Final=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.hibernate.validator.internal.util.privilegedactions(GetAnnotationAttribute.class[GetAnnotationAttribute" modifiers="49" timestamp="1691679701869"/>
+    <typeInfo handle="=Patient-Service/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.pm.patientservice.service{PatientService.java[PatientService" modifiers="1" timestamp="1744195510178"/>
+    <typeInfo handle="=Patient-Service/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.pm.patientservice.controller{PatientController.java[PatientController" modifiers="1" timestamp="1744197487752"/>
+</typeInfoHistroy>
