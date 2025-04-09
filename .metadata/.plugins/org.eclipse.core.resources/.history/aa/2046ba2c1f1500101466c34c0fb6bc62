@@ -1,0 +1,10 @@
+package com.pm.patientservice.exception;
+
+public class EmailAlreadyExistException extends Exception {
+
+	public EmailAlreadyExistException(String message) {
+		// TODO Auto-generated constructor stub
+		super(message);
+	}
+
+}

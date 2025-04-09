@@ -1,5 +1,7 @@
 package com.pm.patientservice.dto;
 
+import java.util.UUID;
+
 import lombok.Data;
 
 @Data

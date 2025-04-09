@@ -1,0 +1,17 @@
+package com.pm.patientservice.mapper;
+
+import com.pm.patientservice.dto.PatientResponseDto;
+import com.pm.patientservice.entity.Patient;
+
+public class PatientMapper {
+	public PatientResponseDto getPatientResponseDto(Patient patient) {
+		PatientResponseDto dto=new PatientResponseDto();
+		dto.setId(patient.getId().toString());
+		dto.setAddress(patient.getAddress());
+		dto.setDateofbirth(patient.getDateofbirth().toString());
+		dto.setEmail(patient.getEmail());
+		dto.setName(patient.getName());
+		return dto;
+		
+	}
+}

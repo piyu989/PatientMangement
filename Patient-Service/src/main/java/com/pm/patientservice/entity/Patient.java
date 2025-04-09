@@ -13,22 +13,24 @@ import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 
 @Entity
-@Data
+@Data   
 public class Patient {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private UUID id;
-    @NotNull
-    private String name;
-    @NotNull
-    @Email
-    @Column(unique = true)
-    private String email;
-    
-    @NotNull
-    private String address;
-    @NotNull
-    private LocalDate dateofbirth;
-    @NotNull
-    private LocalDate registeredDate;
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private UUID id;
+	@NotNull
+	private String name;
+	@NotNull 
+	@Email
+	@Column(unique = true)
+	private String email;
+
+	@NotNull
+	private String address;
+	@Column(name = "DATE_OF_BIRTH")
+
+	@NotNull
+	private LocalDate dateofbirth;
+	@NotNull
+	private LocalDate registeredDate;
 }

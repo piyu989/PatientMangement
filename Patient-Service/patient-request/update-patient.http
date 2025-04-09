@@ -1,0 +1,10 @@
+PUT http://localhost:8080/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+
+{
+	"name":"piyush",
+	"email":"sab98@gmail.com",
+	"address":"gandhi nagar",
+	"dateofbirth":"12/1/2002",
+	"registeredDate":"4/4/2025"
+}
