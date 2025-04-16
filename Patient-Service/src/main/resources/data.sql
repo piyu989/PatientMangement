@@ -1,4 +1,4 @@
--- Ensure the 'patient' table exists
+    -- Ensure the 'patient' table exists
 CREATE TABLE IF NOT EXISTS patient
 (
     id              UUID PRIMARY KEY,

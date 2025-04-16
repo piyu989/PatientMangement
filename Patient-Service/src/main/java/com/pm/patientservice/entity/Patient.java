@@ -27,8 +27,8 @@ public class Patient {
 
 	@NotNull
 	private String address;
+	
 	@Column(name = "DATE_OF_BIRTH")
-
 	@NotNull
 	private LocalDate dateofbirth;
 	@NotNull
