@@ -53,4 +53,6 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.DeleteMapping"/>
     <fullyQualifiedTypeName name="io.swagger.v3.oas.annotations.tags.Tag"/>
     <fullyQualifiedTypeName name="io.swagger.v3.oas.annotations.Operation"/>
+    <fullyQualifiedTypeName name="net.devh.boot.grpc.server.service.GrpcService"/>
+    <fullyQualifiedTypeName name="com.pm.billingservice.BillingServiceApplication"/>
 </qualifiedTypeNameHistroy>
